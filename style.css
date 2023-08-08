@@ -1,0 +1,50 @@
+html{
+    box-sizing: border-box;
+    background-image: url(FB_IMG_15667723431406770.jpg);
+}
+.Box{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    justify-content: space-evenly;
+
+    
+}
+.box1{
+    width: 50%;
+    padding: 50px;
+    background-color: rgb(250, 29, 231);
+    margin: 50px;
+    gap: 20px;
+    height: 50px;
+}
+.box2{
+    width: 50%;
+    padding: 50px;
+    background-color: blue;
+    margin: 50px;
+   gap: 20px;
+   height: 50px;
+    
+}
+.box3{
+    width: 50%;
+    padding: 50px;
+    background-color: red;
+    margin: 50px;
+    height: 50px;
+}
+.box4{
+    width: 50%;
+    padding: 50px;
+    background-color: rgb(255, 251, 3);
+    margin: 50px;
+    height: 50px;
+}
+.box5{
+    width: 50%;
+    padding: 50px;
+    background-color: lawngreen;
+    margin: 50px;
+   height: 50px;
+    
+}
