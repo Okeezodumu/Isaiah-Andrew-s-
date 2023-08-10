@@ -1,0 +1,104 @@
+html {
+    box-sizing: border-box;
+    background-image: url(./Lost-Frequencies-Cup-of-Beats-EP.jpg);
+    
+
+}
+
+.Box {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 450px;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.box1 {
+    width: 100%;
+    padding: 50px;
+    background-color: rgb(250, 29, 231);
+    margin: 50px;
+    gap: 50px;
+    height: 50px;
+}
+
+.box1::first-letter {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.box2::first-letter {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.box3::first-letter {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.box4::first-letter {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.box5::first-letter {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.box6::first-letter {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.box2 {
+    width: 100%;
+    padding: 50px;
+    background-color: blue;
+    margin: 50px;
+    gap: 20px;
+    height: 50px;
+
+}
+
+.box3 {
+    width: 100%;
+    padding: 50px;
+    background-color: red;
+    margin: 50px;
+    height: 50px;
+}
+
+.box4 {
+    width: 55%;
+    padding: 50px;
+    background-color: rgb(255, 251, 3);
+    margin: 50px;
+    height: 50px;
+    position: relative;
+    top: 200px;
+    right: 600px;
+}
+
+.box5 {
+    width: 100%;
+    padding: 50px;
+    background-color: lawngreen;
+    margin: 50px;
+    height: 50px;
+    position: relative;
+    top: -50px;
+    left: 400px;
+}
+
+.box6 {
+    width: 900%;
+    padding: 50px;
+    background-color: rgb(15, 218, 245);
+    margin: 50px;
+    height: 50px;
+    position: relative;
+    top: 150px;
+    right: 200px;
+}
