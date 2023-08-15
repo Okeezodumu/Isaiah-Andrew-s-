@@ -1,0 +1,81 @@
+
+#Boxx{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.boxI{
+    background: rgb(255, 68, 0);
+    border: 1px solid blue;
+    padding: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.boxII{
+    background: rgb(251, 255, 0);
+    border: 1px solid blue;
+    padding: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.boxIII{
+    background: orangered;
+    border: 1px solid blue;
+    padding: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#Boxy{
+    display: grid;
+    grid-template-columns: 66.6% 33.3%;
+}
+.boxIV{
+    background:blue;
+    border: 1px solid blue;
+    padding: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.boxV{
+    background: rgb(226, 4, 255);
+    border: 1px solid blue;
+    padding: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#Boxa{
+    display: grid;
+    grid-template-rows: 100%;
+
+}
+.boxVI{
+    background: violet;
+    border: 1px solid blue;
+    padding:100px;
+    width: 127.3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.box1::first-letter {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.box2::first-letter {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.box3::first-letter {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.box4::first-letter {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.box5::first-letter {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.box6::first-letter {
+    font-size: 2rem;
+    font-weight: 700;
+}

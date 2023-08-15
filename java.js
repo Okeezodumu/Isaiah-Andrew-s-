@@ -1,4 +1,4 @@
-console.log("javascript ")
+/*console.log("javascript ")
 console.log("javascript" + "" + "is cool")
 var mystring = "new to javascript"
 console.log(mystring)
@@ -54,3 +54,53 @@ myDec = myDec + 5
 myDec = myDec *2.2
 myDec = myDec % 2
 console.log(myDec)
+*/
+
+/*var age = 30;
+if (age < 18);
+ { console.log("Too young") }
+
+var number = "5";
+console.log(number == 5);
+console.log("5"=== 5)
+console.log("<br/ >")
+
+ let a = true
+ let b = false
+ let result
+ result = (b || a)
+ console.log(result)
+ console.log("<br/ >")
+
+var x = 8
+var y = 2
+result = x < 10 && y > 1
+ console.log(result)
+ console.log("<br />")
+
+ let myStr = "string type"
+ let myNum = 5
+ let myBool = false
+ let myObj = {name: "Dave"}
+ let myArr = ["one", 2, "Three", 4]
+ console.log(typeof myStr)
+ console.log(typeof myNum)
+ console.log(typeof myBool)
+ console.log(typeof myObj)
+ console.log(typeof myArr)
+ console.log("<br />")
+
+ var mobile =["vivo", "sony", "Lg"]
+ console.log(mobile instanceof Array)
+ console.log(mobile instanceof Object)
+ console.log(mobile instanceof String)
+ console.log(mobile instanceof Number)
+ console.log(mobile instanceof Boolean)
+ console.log(0 in mobile)
+ console.log( 1 in mobile)*/
+
+ var a = 10
+ var b = 20
+ var myValue = (a > b ? 100 :200)
+ console.log(myValue)
+
