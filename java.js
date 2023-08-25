@@ -99,8 +99,72 @@ result = x < 10 && y > 1
  console.log(0 in mobile)
  console.log( 1 in mobile)*/
 
- var a = 10
- var b = 20
- var myValue = (a > b ? 100 :200)
- console.log(myValue)
+//  var a = 10
+//  var b = 20
+//  var myValue = (a > b ? 100 :200)
+//  console.log(myValue)
 
+//  let grade = "A"
+//         console.log("Entering switch statements")
+//         switch (grade) {
+//             case "A": console.log("Good job")
+//                 break;
+//             case "B": console.log("Pretty good")
+//                 break;
+//             case "C": console.log("you passed")
+//                 break;
+//             case "D": console.log("Not so good")
+//                 break;
+//             case "E": console.log("Failed")
+//                 break;
+//             default: console.log("No grade")
+//         }
+//         console.log("Exiting switch statement") 
+
+
+    //     let numElem = 0
+    //     while (numElem < 20) {
+    //         if(numElem===10) {
+    //             break
+    //         }
+        
+    // console.log(numElem + "\n")
+    // numElem++
+    // }
+
+    // let myArr1 = ["a", "b", "c", "d", "e"] // break label
+    // let myArr2 = ["t", "c", "g", "h", "i"]
+    // toploop: for (const arr1Elem of myArr1) {
+    //     bottomloop: for (const arr2Elem of myArr2){
+    //         if (arr1Elem == arr2Elem){
+    //             break toploop
+    //         }
+    //         console.log(arr1Elem + " " + arr2Elem)
+        
+    //     }
+    // }
+    // toploop: for (const arr1Elem of myArr1) {
+    //     console.log(arr1Elem)
+    //     bottomloop: for (const arr2Elem  of myArr2) {
+    //         if (arr1Elem == arr2Elem){
+    //             break bottomloop
+    //         }
+    //         console.log(arr1Elem + " " + arr2Elem)
+    //     }
+       
+    // }
+    let myArr1 = ["a", "b", "c", "d", "e"] // break label
+    let myArr2 = ["e", "f", "g", "h", "i"]
+    toploop: for (let i = 0; i < myArr1.length; i++) {
+            console.log(myArr1[i], "\n")
+            bottomloop: for (let j = 0; j < myArr2.length; j++){
+                if (i == 2) break bottomloop
+                if (i == 4) break toploop
+                console.log(myArr2[j], "\n")
+            }
+        }
+        // let myArr1 = ["a", "b", "c", "d", "e"]
+        // for (let i =0; i<5; i++){
+        //     console.log(myArr1[i], "\n")
+        // }
+    

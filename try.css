@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(186, 243, 99);
+    display: grid;
+    grid-template-columns: 50% auto auto auto;
+    box-sizing: border-box;
+}
+
+#contain {
+    height: 100vh;
+    width: 100%;
+    margin: 40px;
+    border: 8px solid green;
+    background-color: white;
+
+}
+
+#pic {
+
+    height: 100vh;
+    width: 90%;
+    margin: 40px;
+    border: 8px solid green;
+    background-color: white;
+    grid-column-start: auto;
+    position: relative;
+    right: 80px;
+    background-image: url(./FSaBxyjXoAMMaIU.jpeg);
+}
+
+
+#picc {
+    height: 100vh;
+    width: 90%;
+    margin: 40px;
+    border: 8px solid green;
+    background-color: rgb(64, 64, 65);
+    grid-column-start: auto;
+    position: relative;
+    right: 80px;
+    background-image: url(./FB_IMG_15514385929391254.jpg );
+}
+
+
+#pice {
+    height: 100vh;
+    width: 90%;
+    margin: 40px;
+    border: 8px solid green;
+    background-color: white;
+    grid-column-start: auto;
+    position: relative;
+    right: 80px;
+    background-image: url(./FB_IMG_15877424018637693.jpg);
+
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    left: 300px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+    color: greenyellow;
+}
+
+.write {
+    position: relative;
+    top: 200px;
+    left: 50px;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flexbox;
+}
+
+.Doe {
+    display: flex;
+    gap: 50px;
+}
+
+.write2,
+.write3 {
+    position: relative;
+    top: 200px;
+    left: 50px;
+    font-size: x-small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.button1 {
+    position: relative;
+    top: 230px;
+    left: 50px;
+
+}
+
+.button2 {
+    position: relative;
+    top: 230px;
+    left: 50px;
+}
